@@ -260,12 +260,6 @@ header ul .link-title2 {
   width: 100%;
   -webkit-transform: translate(5em, -8em);
           transform: translate(5em, -8em);
-  -webkit-animation: slide ease-in-out infinite 5s;
-          animation: slide ease-in-out infinite 5s;
-  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
-  transition: -webkit-transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
-  transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
-  transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1), -webkit-transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .scrolldown p {
@@ -1305,30 +1299,6 @@ header ul .link-title2 {
   100% {
     -webkit-transform: translateX(400px);
             transform: translateX(400px);
-  }
-}
-
-@-webkit-keyframes slide {
-  0%,
-  100% {
-    -webkit-transform: translate(5em, -8em);
-            transform: translate(5em, -8em);
-  }
-  50% {
-    -webkit-transform: translate(5em, -6.7em);
-            transform: translate(5em, -6.7em);
-  }
-}
-
-@keyframes slide {
-  0%,
-  100% {
-    -webkit-transform: translate(5em, -8em);
-            transform: translate(5em, -8em);
-  }
-  50% {
-    -webkit-transform: translate(5em, -6.7em);
-            transform: translate(5em, -6.7em);
   }
 }
 /*# sourceMappingURL=style.css.map */
