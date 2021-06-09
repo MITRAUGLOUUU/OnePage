@@ -97,6 +97,7 @@ html {
 
 body {
   background: #000;
+  overflow-x: hidden;
 }
 
 .bg {
@@ -260,6 +261,7 @@ header ul .link-title2 {
   width: 100%;
   -webkit-transform: translate(5em, -8em);
           transform: translate(5em, -8em);
+  overflow-x: hidden;
 }
 
 .scrolldown p {
