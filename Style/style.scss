@@ -184,6 +184,7 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    transform: translate(5em, -8em);
     p {
         right: 0;
         position: absolute;
@@ -234,16 +235,66 @@ header {
             }
         }
     }
+    .flex {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
     #repere_category {
         &1 {
             font-family: "Outline";
             color: $beige;
             font-size: 2em;
-            position: absolute;
+            margin: 2em 1em;
+            p {
+                font-size: 2em;
+                font-weight: 600;
+            }
+            div {
+                height: 0.1em;
+                background-color: $beige;
+                width: 2.6em;
+                margin-left: 0.2em;
+            }
+        }
+        &2 {
+            font-family: "Outline";
+            color: $beige;
+            font-size: 2em;
+            margin: 4em 1em;
+            p {
+                font-size: 2em;
+                font-weight: 600;
+            }
+            div {
+                height: 0.1em;
+                background-color: $beige;
+                width: 2.6em;
+                margin-left: 0.2em;
+            }
+        }
+        &3 {
+            font-family: "Outline";
+            color: $beige;
+            font-size: 2em;
+            margin: 4em 1em;
+            p {
+                font-size: 2em;
+                font-weight: 600;
+            }
+            div {
+                height: 0.1em;
+                background-color: $beige;
+                width: 2.6em;
+                margin-left: 0.2em;
+            }
+        }
+        &2 {
+            font-family: "Outline";
+            color: $beige;
+            font-size: 2em;
             width: 0.75em;
-            display: block;
-            margin: 0 1em;
-            transform: translateY(-18em);
+            margin: 4em 1em;
             p {
                 font-size: 2em;
                 font-weight: 600;
@@ -255,12 +306,11 @@ header {
                 margin-left: 0.2em;
             }
         }
-        &2 {
+        &4 {
             font-family: "Outline";
             color: $beige;
             font-size: 2em;
-            width: 100%;
-            margin: 4em 0;
+            margin: 4em 1em;
             p {
                 font-size: 2em;
                 font-weight: 600;
@@ -652,7 +702,7 @@ header {
             align-content: center;
             width: 0.75em;
             margin: 0 2em;
-            transform: translateY(-30em);
+            transform: translateY(-40em);
             right: 0;
             span {
                 height: 0.65em;
@@ -749,6 +799,7 @@ header {
                         border-bottom: .1em solid $color5;
                     }
                     .input2 {
+                        color: $color5;
                         transition: all .15s ease;
                         width: 100%;
                         padding-right: 1.5rem;
@@ -800,6 +851,7 @@ header {
                     border-bottom: .1em solid $color5;
                 }
                 .div3 {
+                    color: $color5;
                     width: 100%;
                     position: relative;
                     padding: .75rem;
@@ -812,9 +864,9 @@ header {
                     border-color: #e2e8f0;
                     display: block;
                     line-height: 1.5;
-                    color: #805ad5;
                     box-sizing: inherit;
                     .textarea {
+                        color: $color5;
                         transition: all .15s ease;
                         width: 100%;
                         resize: none;
